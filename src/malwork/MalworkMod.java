@@ -11,7 +11,7 @@ import mindustry.ui.dialogs.*;
 
 public class MalworkMod extends Mod{
 
-    public ExampleJavaMod(){
+    public MalworkMod(){
         Log.info("Loaded MalworkMod constructor.");
 
         //listen for game load event
