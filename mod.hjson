@@ -1,17 +1,17 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Malwork"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "malwork"
 
 #your name
-author: "You"
+author: "TheMalaysianDude"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "malwork.MalworkMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "Testing ground for java modding."
 
 #the mod version
 version: 1.0
