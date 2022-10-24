@@ -19,7 +19,7 @@ public class MWUnitTypes {
 		
 	};
 	
-	private static final ObjectIntMap<Class<? extends Entityc>> idMap = new ObjectIntMap<>{};
+	private static final ObjectIntMap<Class<? extends Entityc>> idMap = new ObjectIntMap<>();
 
     /**
      * Internal function to flatmap {@code Class -> Prov} into an {@link Entry}.
