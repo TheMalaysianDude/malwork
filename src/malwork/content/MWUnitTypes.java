@@ -78,7 +78,7 @@ public class MWUnitTypes {
 			lockLegBase = true;
 			legContinuousMove = true;
 			legGroupSize = 3;
-			legStraightness = 0.4f
+			legStraightness = 0.4f;
 			baseLegStraightness = 0.5f;
 			legMaxLength = 1.3f;
 			
@@ -93,6 +93,6 @@ public class MWUnitTypes {
 			legBaseRegion = Atlas.find("tecta-leg-base");
 			footRegion = Atlas.find("tecta-foot");
 			
-		}}
+		}};
 	}
 }
