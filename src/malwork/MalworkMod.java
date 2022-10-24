@@ -8,11 +8,13 @@ import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
+import malwork.content.*;
 
 public class MalworkMod extends Mod{
 
     public MalworkMod(){
-        Log.info("Loaded MalworkMod constructor.");
+        /*
+		Log.info("Loaded MalworkMod constructor.");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
@@ -26,11 +28,12 @@ public class MalworkMod extends Mod{
                 dialog.show();
             });
         });
+		*/
     }
 
     @Override
     public void loadContent(){
-        Log.info("Loading some example content.");
+        MWUnitTypes.load();
     }
 
 }
