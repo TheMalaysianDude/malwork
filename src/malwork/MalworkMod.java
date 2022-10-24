@@ -1,4 +1,4 @@
-package example;
+package malwork;
 
 import arc.*;
 import arc.util.*;
