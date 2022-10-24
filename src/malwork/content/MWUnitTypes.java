@@ -89,9 +89,9 @@ public class MWUnitTypes {
 			legExtension = -5f;
 			legBaseOffset = 5f;
 			
-			legRegion = Atlas.find("tecta-leg");
-			legBaseRegion = Atlas.find("tecta-leg-base");
-			footRegion = Atlas.find("tecta-foot");
+			legRegion = Core.atlas.find("tecta-leg");
+			legBaseRegion = Core.atlas.find("tecta-leg-base");
+			footRegion = Core.atlas.find("tecta-foot");
 			
 		}};
 	}
