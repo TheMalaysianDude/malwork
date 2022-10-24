@@ -14,29 +14,30 @@ import mindustry.type.*;
 import mindustry.world.meta.*;
 
 public class MWUnitTypes {
-	
+	/*
 	private static final Entry<Class<? extends Entityc>, Prov<? extends Entityc>>[] types = new Entry[]{
 		
 	};
 	
 	private static final ObjectIntMap<Class<? extends Entityc>> idMap = new ObjectIntMap<>();
-
+	/*
     /**
      * Internal function to flatmap {@code Class -> Prov} into an {@link Entry}.
      * @author GlennFolker
      */
+	 /*
     private static <T extends Entityc> Entry<Class<T>, Prov<T>> prov(Class<T> type, Prov<T> prov){
         Entry<Class<T>, Prov<T>> entry = new Entry<>();
         entry.key = type;
         entry.value = prov;
         return entry;
     }
-
+	/*
     /**
      * Setups all entity IDs and maps them into {@link EntityMapping}.
      * @author GlennFolker
      */
-
+	/*
     private static void setupID(){
         for(
             int i = 0,
@@ -55,15 +56,16 @@ public class MWUnitTypes {
             }
         }
     }
-
+	*/
     /**
      * Retrieves the class ID for a certain entity type.
      * @author GlennFolker
      */
+	 /*
     public static <T extends Entityc> int classID(Class<T> type){
         return idMap.get(type, -1);
     }
-	
+	*/
 	public static UnitType 
 	
 	legged1;
