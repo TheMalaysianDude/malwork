@@ -69,7 +69,7 @@ public class MWUnitTypes {
 	legged1;
 	
 	public static void load(){
-		setupID();
+		//setupID(); -- Disabled because there is no custom types.
 		
 		//Region Legged
 		legged1 = new UnitType("legged1"){{
