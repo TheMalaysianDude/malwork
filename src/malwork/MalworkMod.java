@@ -13,6 +13,7 @@ import malwork.content.*;
 public class MalworkMod extends Mod{
 
     public MalworkMod(){
+		super();
         /*
 		Log.info("Loaded MalworkMod constructor.");
 
