@@ -17,11 +17,17 @@ import mindustry.entities.bullet.*;
 import mindustry.entities.pattern.*;
 import mindustry.entities.abilities.*;
 
+/*
+ //legs
+    public static @EntityDef({Unitc.class, Legsc.class}) UnitType corvus, atrax,
+    merui, cleroi, anthicus,
+    tecta, collaris;
+
+*/
+
 public class MWUnitTypes {
 	
-	public static UnitType 
-	
-	legged1;
+	public static @EntityDef({Unitc.class, Legsc.class}) UnitType legged1;
 	
 	public static void load(){
 		
