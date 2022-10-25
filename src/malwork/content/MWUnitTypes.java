@@ -53,8 +53,8 @@ public class MWUnitTypes {
 				
 				parts.add(new RegionPart("-side"){{
 					layerOffset = 0.01f;
-					x = 8f;
-					y = 16f;
+					x = 6f;
+					y = 4f;
 					mirror = true;
 				}});
 			}
