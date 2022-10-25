@@ -17,15 +17,12 @@ import mindustry.entities.bullet.*;
 import mindustry.entities.pattern.*;
 import mindustry.entities.abilities.*;
 
-/*
- //legs
-    public static @EntityDef({Unitc.class, Legsc.class}) UnitType corvus, atrax,
-    merui, cleroi, anthicus,
-    tecta, collaris;
-
-*/
-
 public class MWUnitTypes {
+	
+	//decompiled EntityMapping.class
+	static {
+		EntityMapping.nameMap.put("malwork-legged1", EntityMapping.idMap[24]);
+	}
 	
 	public static UnitType 
 	
