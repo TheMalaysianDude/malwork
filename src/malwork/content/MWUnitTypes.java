@@ -63,8 +63,8 @@ public class MWUnitTypes {
 			public void load(){
 				super.load();
 				
-				legRegion = Core.atlas.find("anthicus-leg");
-				legBaseRegion = Core.atlas.find("cleroi-leg-base");
+				legRegion = Core.atlas.find("cleroi-leg");
+				legBaseRegion = Core.atlas.find("anthicus-leg-base");
 			}
 		};
 	}
