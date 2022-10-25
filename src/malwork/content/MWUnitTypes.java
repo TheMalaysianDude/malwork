@@ -52,8 +52,8 @@ public class MWUnitTypes {
 				legBaseOffset = 15f;
 				
 				parts.add(new RegionPart("-side"){{
-					x = 6f;
-					y = 4f;
+					x = 0f;
+					y = 0f;
 					mirror = true;
 				}});
 			}
