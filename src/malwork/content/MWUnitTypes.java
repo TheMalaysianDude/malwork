@@ -7,7 +7,7 @@ import arc.graphics.*;
 import arc.graphics.g2d.*;
 import mindustry.gen.*;
 import mindustry.type.*;
-import mindustry.type.units*;
+import mindustry.type.units.*;
 import mindustry.content.*;
 import mindustry.graphics.*;
 import mindustry.ai.types.*;
@@ -66,6 +66,7 @@ public class MWUnitTypes {
 				
 				legRegion = Core.atlas.find("cleroi-leg");
 				legBaseRegion = Core.atlas.find("anthicus-leg-base");
+				bseJointRegion = Core.atlas.find("spiroct-joint");
 			}
 		};
 	}
