@@ -1,17 +1,21 @@
 package malwork.content;
 
 import arc.*;
-import arc.func.*;
+import arc.util.*;
+import arc.math.*;
 import arc.graphics.*;
 import arc.graphics.g2d.*;
-import arc.struct.*;
-import arc.struct.ObjectMap.*;
-import mindustry.content.*;
-import mindustry.entities.bullet.*;
 import mindustry.gen.*;
-import mindustry.graphics.*;
 import mindustry.type.*;
+import mindustry.content.*;
+import mindustry.graphics.*;
+import mindustry.ai.types.*;
 import mindustry.world.meta.*;
+import mindustry.type.weapons.*;
+import mindustry.entities.part.*;
+import mindustry.entities.bullet.*;
+import mindustry.entities.pattern.*;
+import mindustry.entities.abilities.*;
 
 public class MWUnitTypes {
 	
@@ -24,6 +28,8 @@ public class MWUnitTypes {
 		//Region Legged
 		legged1 = new UnitType("legged1"){{
 			speed = 1.1f;
+			
+			constructor = UnitEntity::create;
 			
 			lockLegBase = true;
 			legContinuousMove = true;
