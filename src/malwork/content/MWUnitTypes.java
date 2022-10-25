@@ -39,30 +39,32 @@ public class MWUnitTypes {
 				rotateSpeed = 1.6f;
 				lockLegBase = true;
 				legContinuousMove = true;
-				legStraightness = 0.6f;
+				legStraightness = 0.4f;
 				baseLegStraightness = 0.5f;
 				outlineColor = Pal.darkOutline;
 				
-				legCount = 8;
+				groundLayer = Layer.legUnit;
+				
+				legCount = 6;
 				legLength = 30f;
-				legForwardScl = 2.1f;
+				legForwardScl = 2f;
+				legLengthScl = 1f;
 				legMoveSpace = 1.05f;
 				rippleScale = 1.2f;
 				stepShake = 0.5f;
-				legGroupSize = 2;
-				legExtension = -6f;
-				legBaseOffset = 19f;
-				legStraightLength = 0.9f;
-				legMaxLength = 1.2f;
+				legGroupSize = 3;
+				legExtension = -3f;
+				legBaseOffset = 7f;
+				legStraightLength = 0.4f;
+				legMaxLength = 1.1f;
 			}
 			
 			@Override
 			public void load(){
 				super.load();
 				
-				legRegion = Core.atlas.find("tecta-leg");
-				legBaseRegion = Core.atlas.find("tecta-leg-base");
-				footRegion = Core.atlas.find("tecta-foot");
+				legRegion = Core.atlas.find("anthicus-leg");
+				legBaseRegion = Core.atlas.find("cleroi-leg-base");
 			}
 		};
 	}
