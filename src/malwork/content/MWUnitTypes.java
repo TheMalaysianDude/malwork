@@ -27,7 +27,9 @@ import mindustry.entities.abilities.*;
 
 public class MWUnitTypes {
 	
-	public static @EntityDef({Unitc.class, Legsc.class}) UnitType legged1;
+	public static UnitType 
+	
+	legged1;
 	
 	public static void load(){
 		
