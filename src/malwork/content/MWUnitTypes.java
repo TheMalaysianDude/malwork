@@ -31,6 +31,7 @@ public class MWUnitTypes {
 			
 			constructor = UnitEntity::create;
 			
+			/*
 			lockLegBase = true;
 			legContinuousMove = true;
 			legGroupSize = 3;
@@ -44,6 +45,7 @@ public class MWUnitTypes {
 			legMoveSpace = 1.4f;
 			legExtension = -5f;
 			legBaseOffset = 5f;
+			*/
 			
 			legRegion = Core.atlas.find("tecta-leg");
 			legBaseRegion = Core.atlas.find("tecta-leg-base");
