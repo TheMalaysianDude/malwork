@@ -43,8 +43,6 @@ public class MWUnitTypes {
 				baseLegStraightness = 0.5f;
 				outlineColor = Pal.darkOutline;
 				
-				constructor = UnitEntity::create;
-				
 				legCount = 8;
 				legLength = 30f;
 				legForwardScl = 2.1f;
