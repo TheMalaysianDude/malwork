@@ -50,11 +50,15 @@ public class MWUnitTypes {
 			legBaseOffset = 19f;
 			legStraightLength = 0.9f;
 			legMaxLength = 1.2f;
-			/*		
-			legRegion = Core.atlas.find("tecta-leg");
-			legBaseRegion = Core.atlas.find("tecta-leg-base");
-			footRegion = Core.atlas.find("tecta-foot");
-			*/
+			
+			@Override
+			public void load(){
+				super.load();
+				
+				legRegion = Core.atlas.find("tecta-leg");
+				legBaseRegion = Core.atlas.find("tecta-leg-base");
+				footRegion = Core.atlas.find("tecta-foot");
+			}
 		}};
 	}
 }
