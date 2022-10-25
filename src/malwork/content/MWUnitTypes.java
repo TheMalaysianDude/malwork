@@ -21,7 +21,7 @@ public class MWUnitTypes {
 	
 	//decompiled EntityMapping.class
 	static {
-		EntityMapping.nameMap.put("malwork-legged1", LegsUnit::new);
+		EntityMapping.nameMap.put("malwork-legged1", EntityMapping.idMap[24]);
 	}
 	
 	public static UnitType 
