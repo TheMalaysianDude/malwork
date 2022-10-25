@@ -7,6 +7,7 @@ import arc.graphics.*;
 import arc.graphics.g2d.*;
 import mindustry.gen.*;
 import mindustry.type.*;
+import mindustry.type.units*;
 import mindustry.content.*;
 import mindustry.graphics.*;
 import mindustry.ai.types.*;
