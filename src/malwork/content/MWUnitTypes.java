@@ -29,32 +29,32 @@ public class MWUnitTypes {
 		legged1 = new UnitType("legged1"){{
 			drag = 0.1f;
 			speed = 1.1f;
-			hitSize = 30f;
+			hitSize = 20f;
 			rotateSpeed = 1.6f;
-            lockLegBase = true;
-            legContinuousMove = true;
-            legStraightness = 0.6f;
-            baseLegStraightness = 0.5f;
+			lockLegBase = true;
+			legContinuousMove = true;
+			legStraightness = 0.6f;
+			baseLegStraightness = 0.5f;
 			outlineColor = Pal.darkOutline;
 			
 			constructor = UnitEntity::create;
-			
+
 			legCount = 8;
-            legLength = 30f;
-            legForwardScl = 2.1f;
-            legMoveSpace = 1.05f;
-            rippleScale = 1.2f;
-            stepShake = 0.5f;
-            legGroupSize = 2;
-            legExtension = -6f;
-            legBaseOffset = 19f;
-            legStraightLength = 0.9f;
-            legMaxLength = 1.2f;
-						
+			legLength = 30f;
+			legForwardScl = 2.1f;
+			legMoveSpace = 1.05f;
+			rippleScale = 1.2f;
+			stepShake = 0.5f;
+			legGroupSize = 2;
+			legExtension = -6f;
+			legBaseOffset = 19f;
+			legStraightLength = 0.9f;
+			legMaxLength = 1.2f;
+			/*		
 			legRegion = Core.atlas.find("tecta-leg");
 			legBaseRegion = Core.atlas.find("tecta-leg-base");
 			footRegion = Core.atlas.find("tecta-foot");
-			
+			/*
 		}};
 	}
 }
