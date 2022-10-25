@@ -27,26 +27,30 @@ public class MWUnitTypes {
 		
 		//Region Legged
 		legged1 = new UnitType("legged1"){{
+			drag = 0.1f;
 			speed = 1.1f;
+			hitSize = 30f;
+			rotateSpeed = 1.6f;
+            lockLegBase = true;
+            legContinuousMove = true;
+            legStraightness = 0.6f;
+            baseLegStraightness = 0.5f;
+			outlineColor = Pal.darkOutline;
 			
 			constructor = UnitEntity::create;
 			
-			/*
-			lockLegBase = true;
-			legContinuousMove = true;
-			legGroupSize = 3;
-			legStraightness = 0.4f;
-			baseLegStraightness = 0.5f;
-			legMaxLength = 1.3f;
-			
-			legCount = 6;
-			legLength = 30f;
-			legForwardScl = 0.45f;
-			legMoveSpace = 1.4f;
-			legExtension = -5f;
-			legBaseOffset = 5f;
-			*/
-			
+			legCount = 8;
+            legLength = 30f;
+            legForwardScl = 2.1f;
+            legMoveSpace = 1.05f;
+            rippleScale = 1.2f;
+            stepShake = 0.5f;
+            legGroupSize = 2;
+            legExtension = -6f;
+            legBaseOffset = 19f;
+            legStraightLength = 0.9f;
+            legMaxLength = 1.2f;
+						
 			legRegion = Core.atlas.find("tecta-leg");
 			legBaseRegion = Core.atlas.find("tecta-leg-base");
 			footRegion = Core.atlas.find("tecta-foot");
