@@ -58,7 +58,7 @@ public class MWUnitTypes {
 				legRegion = Core.atlas.find("tecta-leg");
 				legBaseRegion = Core.atlas.find("tecta-leg-base");
 				footRegion = Core.atlas.find("tecta-foot");
-			}
+			};
 		}};
 	}
 }
