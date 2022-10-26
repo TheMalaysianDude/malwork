@@ -53,7 +53,7 @@ public class MWUnitTypes {
 				
 				parts.add(new RegionPart("-side"){{
 					moveRot = 14f;
-					moveY = 2f;
+					moveY = 1f;
 					moveX = -1f;
 					progress = PartProgress.warmup;
 					mirror = true;
@@ -64,6 +64,8 @@ public class MWUnitTypes {
 					mirror = false;
 					reload = 100f;
 					minWarmup = 0.95f;
+					x = 0f;
+					y = 0f;
 					bullet = new BasicBulletType(){{
 						
 					}};
