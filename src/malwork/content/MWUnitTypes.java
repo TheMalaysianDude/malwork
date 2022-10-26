@@ -57,7 +57,7 @@ public class MWUnitTypes {
 					moveX = -2f;
 					progress = PartProgress.warmup;
 					mirror = true;
-					moves.add(new PartMove(PartProgress.reload, 2f, -2f, -5f))
+					moves.add(new PartMove(PartProgress.reload, 2f, -2f, -5f));
 				}});
 				
 				weapons.add(new Weapon(){{
