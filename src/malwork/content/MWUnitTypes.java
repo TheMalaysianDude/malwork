@@ -52,15 +52,16 @@ public class MWUnitTypes {
 				legBaseOffset = 15f;
 				
 				parts.add(new RegionPart("-side"){{
-					moveRot = 10f;
-					moveY = 4f;
-					moveX = -2f;
+					moveRot = 14f;
+					moveY = 2f;
+					moveX = -1f;
 					progress = PartProgress.warmup;
 					mirror = true;
-					moves.add(new PartMove(PartProgress.reload, 2f, -2f, -5f));
+					moves.add(new PartMove(PartProgress.reload, 1f, -2f, -5f));
 				}});
 				
 				weapons.add(new Weapon(){{
+					mirror = false;
 					reload = 100f;
 					minWarmup = 0.95f;
 					bullet = new BasicBulletType(){{
